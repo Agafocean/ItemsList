@@ -1,0 +1,49 @@
+.titleList {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px #333333 solid;
+  margin-bottom: 20px;
+}
+
+.itemsList {
+  padding: 15px;
+  width: 1400px;    
+}
+
+.itemsLine {
+  display: flex;    
+  justify-content: center;
+}
+
+.num {
+  width: 50px;
+}
+
+.id {
+  width: 300px;
+}
+
+.prod {
+  width: 450px;
+}
+
+.price {
+  width: 100px;
+}
+
+.brand {
+  width: 200px;
+}
+
+.preloader {
+  position: absolute;
+  text-align: center;    
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-image: url('./spinner.gif');
+  background-repeat: no-repeat;   
+  background-position: center;
+}
